@@ -1,0 +1,63 @@
+{
+  "collectionName": "components_nosara_blocks_living_blocks",
+  "info": {
+    "displayName": "LivingBlock",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "block_internalID": {
+      "type": "integer",
+      "required": true
+    },
+    "visible": {
+      "type": "boolean",
+      "default": true
+    },
+    "title": {
+      "type": "richtext",
+      "required": true
+    },
+    "text": {
+      "type": "richtext",
+      "required": true
+    },
+    "leftImage_1": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "rightImage_1": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "leftImage_2": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "rightImage_2": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "playaBlock": {
+      "type": "component",
+      "repeatable": false,
+      "component": "nosara-blocks.playa-guiones-block"
+    }
+  }
+}

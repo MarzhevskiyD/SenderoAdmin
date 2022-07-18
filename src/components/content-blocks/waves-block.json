@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_content_blocks_waves_blocks",
+  "info": {
+    "displayName": "WavesBlock",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "background": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "title": {
+      "type": "richtext",
+      "required": true
+    },
+    "block_internalID": {
+      "type": "integer",
+      "required": true
+    },
+    "visible": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}

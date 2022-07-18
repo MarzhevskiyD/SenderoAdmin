@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_work_blocks_balancings",
+  "info": {
+    "displayName": "Balancing",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "richtext",
+      "required": true
+    },
+    "text": {
+      "type": "richtext",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "block_internalID": {
+      "type": "integer",
+      "required": true
+    },
+    "visible": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}

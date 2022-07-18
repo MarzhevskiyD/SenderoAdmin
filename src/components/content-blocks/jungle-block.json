@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_content_blocks_jungle_blocks",
+  "info": {
+    "displayName": "jungleBlock",
+    "icon": "table",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "richtext",
+      "required": true
+    },
+    "text": {
+      "type": "richtext",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "block_internalID": {
+      "type": "integer",
+      "required": true
+    },
+    "visible": {
+      "type": "boolean",
+      "default": true,
+      "required": false
+    }
+  }
+}

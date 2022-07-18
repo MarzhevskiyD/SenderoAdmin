@@ -1,0 +1,56 @@
+{
+  "kind": "singleType",
+  "collectionName": "nosaras",
+  "info": {
+    "singularName": "nosara",
+    "pluralName": "nosaras",
+    "displayName": "Nosara",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "topImage": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "livingBlock": {
+      "type": "component",
+      "repeatable": false,
+      "component": "nosara-blocks.living-block"
+    },
+    "yogaBlock": {
+      "type": "component",
+      "repeatable": false,
+      "component": "nosara-blocks.yoga-block"
+    },
+    "puraVida": {
+      "type": "component",
+      "repeatable": false,
+      "component": "nosara-blocks.pura-vida"
+    },
+    "topImageMobile": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    },
+    "showOpening": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}

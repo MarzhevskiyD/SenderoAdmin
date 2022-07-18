@@ -1,0 +1,33 @@
+{
+  "kind": "singleType",
+  "collectionName": "reserves",
+  "info": {
+    "singularName": "reserve",
+    "pluralName": "reserves",
+    "displayName": "Reserve",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "topImage": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    },
+    "showOpening": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}

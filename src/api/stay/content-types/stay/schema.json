@@ -1,0 +1,43 @@
+{
+  "kind": "singleType",
+  "collectionName": "stays",
+  "info": {
+    "singularName": "stay",
+    "pluralName": "stays",
+    "displayName": "Stay",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "topImage": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "stayPagePreview": {
+      "type": "component",
+      "repeatable": false,
+      "component": "stay-content-blocks.stay-page-preview"
+    },
+    "roomBox": {
+      "type": "component",
+      "repeatable": true,
+      "component": "stay-content-blocks.room-box"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    },
+    "showOpening": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}

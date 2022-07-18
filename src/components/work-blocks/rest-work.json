@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_work_blocks_rest_works",
+  "info": {
+    "displayName": "RestWork",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "background": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "title": {
+      "type": "richtext",
+      "required": true
+    },
+    "text": {
+      "type": "richtext"
+    },
+    "block_internalID": {
+      "type": "integer",
+      "required": true
+    },
+    "visible": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}

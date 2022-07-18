@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_stay_content_blocks_stay_page_previews",
+  "info": {
+    "displayName": "StayPage_preview"
+  },
+  "options": {},
+  "attributes": {
+    "block_internalID": {
+      "type": "integer",
+      "required": true
+    },
+    "visible": {
+      "type": "boolean",
+      "default": true
+    },
+    "title": {
+      "type": "richtext",
+      "required": true
+    },
+    "text": {
+      "type": "richtext",
+      "required": true
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

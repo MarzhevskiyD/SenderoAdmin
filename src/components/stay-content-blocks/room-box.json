@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_stay_content_blocks_room_boxes",
+  "info": {
+    "displayName": "RoomBox",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "richtext",
+      "required": true
+    },
+    "amenities": {
+      "type": "richtext",
+      "required": false
+    },
+    "visible": {
+      "type": "boolean",
+      "default": true
+    },
+    "bookingAvailability": {
+      "type": "boolean",
+      "default": true
+    },
+    "photos": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
+    }
+  }
+}

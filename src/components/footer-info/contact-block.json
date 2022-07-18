@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_footer_info_contact_blocks",
+  "info": {
+    "displayName": "ContactBlock",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "phones": {
+      "type": "richtext"
+    },
+    "emails": {
+      "type": "richtext"
+    }
+  }
+}

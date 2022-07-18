@@ -1,0 +1,36 @@
+{
+  "kind": "singleType",
+  "collectionName": "static_infos",
+  "info": {
+    "singularName": "static-info",
+    "pluralName": "static-infos",
+    "displayName": "staticInfo",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "visitBlock": {
+      "type": "component",
+      "repeatable": false,
+      "component": "footer-info.visit"
+    },
+    "contactsBlock": {
+      "type": "component",
+      "repeatable": false,
+      "component": "footer-info.contacts"
+    },
+    "joinBlock": {
+      "type": "component",
+      "repeatable": false,
+      "component": "footer-info.join-block"
+    },
+    "opening": {
+      "type": "component",
+      "repeatable": false,
+      "component": "footer-info.opening"
+    }
+  }
+}

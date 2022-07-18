@@ -1,0 +1,68 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_pages",
+  "info": {
+    "singularName": "home-page",
+    "pluralName": "home-pages",
+    "displayName": "home",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "topImage": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "jungleBlock": {
+      "type": "component",
+      "repeatable": false,
+      "component": "content-blocks.jungle-block"
+    },
+    "stayBlock": {
+      "type": "component",
+      "repeatable": false,
+      "component": "content-blocks.stay-block"
+    },
+    "wavesBlock": {
+      "type": "component",
+      "repeatable": false,
+      "component": "content-blocks.waves-block"
+    },
+    "surfBlock": {
+      "type": "component",
+      "repeatable": false,
+      "component": "content-blocks.surf-block"
+    },
+    "outpostBlock": {
+      "type": "component",
+      "repeatable": false,
+      "component": "content-blocks.outpost-block"
+    },
+    "eatAndDrinkBlock": {
+      "type": "component",
+      "repeatable": false,
+      "component": "content-blocks.eat-and-drink"
+    },
+    "sustainabilityBlock": {
+      "type": "component",
+      "repeatable": false,
+      "component": "content-blocks.sustainability-block"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    },
+    "showOpening": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_footer_info_visits",
+  "info": {
+    "displayName": "Visit"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "hotelName": {
+      "type": "string"
+    },
+    "address": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

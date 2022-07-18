@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_content_blocks_sustainability_blocks",
+  "info": {
+    "displayName": "SustainabilityBlock",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "block_internalID": {
+      "type": "integer",
+      "required": true
+    },
+    "background": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "title": {
+      "type": "richtext",
+      "required": true
+    },
+    "text": {
+      "type": "richtext",
+      "required": true
+    },
+    "visible": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}

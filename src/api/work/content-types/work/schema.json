@@ -1,0 +1,53 @@
+{
+  "kind": "singleType",
+  "collectionName": "works",
+  "info": {
+    "singularName": "work",
+    "pluralName": "works",
+    "displayName": "Work",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "topImage": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "workBlock": {
+      "type": "component",
+      "repeatable": false,
+      "component": "work-blocks.work-block"
+    },
+    "balanceBlock": {
+      "type": "component",
+      "repeatable": false,
+      "component": "work-blocks.balancing"
+    },
+    "accessBlock": {
+      "type": "component",
+      "repeatable": false,
+      "component": "work-blocks.access"
+    },
+    "RestWorkBalance": {
+      "type": "component",
+      "repeatable": false,
+      "component": "work-blocks.rest-work"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    },
+    "showOpening": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}

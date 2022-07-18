@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_footer_info_contacts",
+  "info": {
+    "displayName": "Contacts",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "ContactOption": {
+      "type": "component",
+      "repeatable": true,
+      "component": "footer-info.contact-block"
+    }
+  }
+}

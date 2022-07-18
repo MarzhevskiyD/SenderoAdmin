@@ -1,0 +1,50 @@
+{
+  "collectionName": "components_content_blocks_surf_blocks",
+  "info": {
+    "displayName": "SurfBlock",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "richtext",
+      "required": true
+    },
+    "text": {
+      "type": "richtext",
+      "required": true
+    },
+    "block_internalID": {
+      "type": "integer",
+      "required": true
+    },
+    "leftImage_1": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "rightImage_1": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "leftImage_2": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "visible": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}

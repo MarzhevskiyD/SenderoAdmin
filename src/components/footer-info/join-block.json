@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_footer_info_join_blocks",
+  "info": {
+    "displayName": "JoinBlock"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subscriptionsActive": {
+      "type": "boolean",
+      "default": true
+    },
+    "InstagramLink": {
+      "type": "string"
+    },
+    "FacebookLink": {
+      "type": "string"
+    }
+  }
+}

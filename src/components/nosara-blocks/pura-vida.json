@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_nosara_blocks_pura_vidas",
+  "info": {
+    "displayName": "PuraVida"
+  },
+  "options": {},
+  "attributes": {
+    "block_internalID": {
+      "type": "integer",
+      "required": true
+    },
+    "visible": {
+      "type": "boolean",
+      "default": true
+    },
+    "background": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "title": {
+      "type": "richtext",
+      "required": true
+    },
+    "text": {
+      "type": "richtext"
+    }
+  }
+}
